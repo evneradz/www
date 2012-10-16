@@ -1,0 +1,264 @@
+.buttons a {
+position:relative;
+top:10px;
+   border-top: 1px solid #524a52;
+   background: #000000;
+   background: -webkit-gradient(linear, left top, left bottom, from(#302d2d), to(#000000));
+   background: -webkit-linear-gradient(top, #302d2d, #000000);
+   background: -moz-linear-gradient(top, #302d2d, #000000);
+   background: -ms-linear-gradient(top, #302d2d, #000000);
+   background: -o-linear-gradient(top, #302d2d, #000000);
+   padding: 4px 8px;
+   -webkit-border-radius: 7px;
+   -moz-border-radius: 7px;
+   border-radius: 7px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 24px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.buttons a:hover {
+   border-top-color: #261e1f;
+   background: #261e1f;
+   color: #ffffff;
+   }
+.buttons a:active {
+   border-top-color: #1c060a;
+   background: #1c060a;
+   }
+
+
+
+.img1{ 
+z-index:2;
+position:absolute;
+color:gray;
+left:70%; 
+top:17%; 
+box-shadow: 2px 2px 2px 2px;
+ rgba(0, 0, 0, 9.15);
+}
+
+.img2{
+visibility:hidden;
+}
+
+
+.img2{
+visibility:hidden;
+}
+
+
+div h0{
+visibility:hidden;
+}
+
+div .L1{
+visibility:hidden;
+}
+
+
+
+
+.container{
+padding-top:100px;
+padding-left:200px;
+border-top:3px solid gray;
+border-bottom:3px solid gray;
+border-left:3px solid gray;
+border-right:3px solid gray;
+float:right;
+background:#F8F8F8 ;
+}
+
+body{
+font-family:"Arial";
+width:1100px;
+height:1700px;
+
+}
+
+
+
+
+div .Label{
+font-weight:bold;
+font-size:15px;
+padding-right:3px;
+text-align:left;
+position:relative; 
+right:10%;
+
+
+}
+
+
+
+div .Label1{
+font-size:15px;
+vertical-align: -10%;
+position:relative;
+top:-18px;
+padding-left:15px;
+position:relative; 
+right:-23%;
+
+
+}
+
+div.Label12{
+font-size:15px;
+vertical-align: -10%;
+position:relative;
+top:-18px;
+position:relative; 
+right:-23%;
+
+}
+
+div .English{
+font-size:15px;
+vertical-align: -10%;
+position:relative;
+top:-80px;
+position:relative; 
+right:-25%;
+
+}
+
+div.Label123{
+font-size:15px;
+vertical-align: -10%;
+position:relative;
+top:0px;
+
+position:relative; 
+right:5%;
+
+}
+
+div .L2{
+position:relative;
+top:-120px;
+
+}
+div .stat{
+visibility:hidden;
+}
+
+div h1{
+font-size:25px;
+color:gray;
+padding-right:100px;
+text-align:left;
+border-bottom:3px solid gray;
+max-width: 85%;
+position:relative;
+left:-150px;
+}
+
+
+
+@media all and (max-width: 1000px) {
+body{
+width:90%;
+
+}
+
+	.container .Label{
+
+	font-size:0.8em;
+	}	
+
+	.container .Label1{
+
+	font-size:0.8em;
+	}	
+
+
+
+	.container .Label2{
+
+	font-size:0.8em;
+	}	
+
+
+.container .Label123{
+	width:45%;
+	font-size:0.8em;
+	}
+
+
+
+	.img1{ 
+		visibility:hidden;
+
+}
+
+
+
+
+}
+
+
+@media all and (max-width: 850px) {
+body{
+width:130%;
+
+}
+
+	.container .Label{
+
+	font-size:0.7em;
+	}	
+
+	.container .Label1{
+
+	font-size:0.7em;
+	}	
+
+
+
+	.container .Label2{
+
+	font-size:0.7em;
+	}	
+
+
+.container .Label123{
+	width:100%;
+	font-size:0.7em;
+	}
+
+
+
+	.img1{ 
+		visibility:hidden;
+
+}
+
+
+
+
+}
+
+
+@media all and (max-width: 400px) {
+body{
+background:black;
+
+}
+
+.container{
+visibility:hidden;}
+
+
+
+
+
+
